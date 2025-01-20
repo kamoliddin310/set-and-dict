@@ -94,7 +94,6 @@ data = [
 # misol -> "Assistant Professor" -> "Junior Professor"
 
 for i in data:
-    if "Assistant" in i["position"]:
-        i["position"] = i["position"].replace("Assistant", "Junior")
+    i["position"] = i["position"].replace("Assistant", "Junior")
 
 pprint(data)
