@@ -42,5 +42,5 @@ wo = w * 100 / len(users)
 er = e * 100 / len(users)
 
 print("\n")
-print('     - Erkaklar: {} ta, {}%'.format(e, er))
-print('     - Ayollar: {} ta, {}%'.format(w, wo))
+print(f'     - Erkaklar: {e} ta, {er:.0f}%')
+print(f'     - Ayollar: {w} ta, {wo:.0f}%')
