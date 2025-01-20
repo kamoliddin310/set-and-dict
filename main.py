@@ -1,3 +1,5 @@
 # high-order function
-sharti yuqku
+
+# sharti yuqku :( !!!
+
 filter()
