@@ -1019,18 +1019,5 @@ for i in set(l_year):
             if k + 2000 == i:
                   count = l_year.count(i)
                   print('      -{} yilda: {} ta {}'.format(i, count, count * 100 / len(l_year)))
-# natija quyidagicha chiqsin
-"""
-Hisobot:
-- Brandlar:
-    - Samsung telefonlar: 300 ta 30%i
-    - Motorolla telefonlar: 150 ta 15%i
-    ....
-- Yillar (2000-2025):
-    - 2000 yilda: 20 ta 2%i
-    - 2001 yilda: 40 ta 4%i
-    - 2002 yilda: 70 ta 7%i
-    ....
-"""
 
 
