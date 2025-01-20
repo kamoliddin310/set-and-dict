@@ -1015,7 +1015,7 @@ for i in set(l_brend):
 
 print('- Yillar (2000 - 2025):')
 for i in set(l_year):
-      for k in range(6):
+      for k in range(2000, 2026):
             if k + 2000 == i:
                   count = l_year.count(i)
                   print('      -{} yilda: {} ta {}'.format(i, count, count * 100 / len(l_year)))
