@@ -1000,6 +1000,25 @@ phones = [{"brand":"Samsung","model":"Samsung A777","date":2008},
 {"brand":"Motorola","model":"Motorola Moto G9 (India)","date":2020}]
 
 # code yozing
+l_brend = []
+l_year = []
+
+for i in phones:
+    l_brend.append(i["brand"])
+    l_year.append(i["date"])
+print('Hisobot:')
+print('- Brandlar:')
+
+for i in set(l_brend):
+        count = l_brend.count(i)
+        print("     - {}     telefonlar: {} ta {}% ".format(i, count, count*100 / len(l_brend)))
+
+print('- Yillar (2000 - 2025):')
+for i in set(l_year):
+      for k in range(6):
+            if k + 2000 == i:
+                  count = l_year.count(i)
+                  print('      -{} yilda: {} ta {}'.format(i, count, count * 100 / len(l_year)))
 # natija quyidagicha chiqsin
 """
 Hisobot:
@@ -1013,3 +1032,5 @@ Hisobot:
     - 2002 yilda: 70 ta 7%i
     ....
 """
+
+
